@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 50px;
+    font-size: 24px;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+/* layout */
+h1 {
+    color: greenyellow;
+    text-shadow: 5px 5px 0 green;
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    border: 5px solid greenyellow;
+    background-color: white;
+    box-shadow: 5px 5px 0 green;
+}
+
+li {
+    list-style: none;
+    padding: 50px;
+}
+
+/* exercise */
+.big-box,
+.little-box {
+    border: 0 solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.big-box {
+    background-color: gray;
+}
+
+.little-box {
+    background-color: lightgray;
+}
+
+.little-box.little-style1 {
+    border-width: 10px;
+}
+
+.little-box.little-style2 {
+    border-width: 25px;
+}
+
+.group1 .big-box {
+    padding: 50px;
+}
+
+.group2 .big-box {
+    padding: 50px;
+}
+
+.group2 .little-box {
+    margin: 50px 0 0 50px;
+}
+
+.group3 .big-box {
+    padding: 0 100px;
+}
+
+.group4 .big-box {
+    padding-top: 50px;
+    width: 150px;
+}
+
+.group5 .big-box {
+    padding: 100px 0;
+}
+
+.group6 .big-box {
+    padding: 20px 40px 80px 100px;
+}
+
+.group7 .big-box {
+    padding: 0 100px 100px 0;
+}
+
+.group8 .big-box {
+    padding: 100px 0 0 100px;
+    width: 150px;
+    height: 150px;
+}
